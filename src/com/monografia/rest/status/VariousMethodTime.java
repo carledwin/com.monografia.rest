@@ -17,7 +17,7 @@ public class VariousMethodTime {
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String returnTime(){
-		return "Hora agora: " + time + " via metodo @GET do HTTP-REST";
+		return "Hora atual da aplicacao: " + time + " via metodo @GET do HTTP-REST";
 	}
 	
 }
